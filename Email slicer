@@ -1,0 +1,5 @@
+email = input("Enter your email:")
+split_email = email.split("@")
+username = split_email[0]
+domain = split_email[1]
+print(f"Your username is: {username}\nYour domain name is:{domain}")
